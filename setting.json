@@ -26,6 +26,6 @@
 			}
     ],
     "editor.renderControlCharacters": true,
-    "editor.formatOnType": true,
+    "editor.formatOnType": true
 
 }
