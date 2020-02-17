@@ -1,8 +1,8 @@
 .inner {
 	margin: 0 auto;
 	padding: 0;
-	max-width: 100%;
-	width: $site_inner;
+	width: 100%;
+	max-width: $site_inner;
 	height: inherit;
 
 	// @include mq("tab") {
