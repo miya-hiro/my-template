@@ -1,12 +1,3 @@
-/**
-* Foundation
-* ========================== */
-// @import "foundation/**";
-// @import "_reset";
-// @import "_hensu";
-// @import "_mixin";
-// @import "_base";
-// @import "_main";
 
 /**
 * Foundation
@@ -19,15 +10,16 @@
 /**
 * Layout
 * ========================== */
-@import "layout/**";
+//@import "layout/**";
 // @import "layout/_header";
 // @import "layout/_footer";
 
 /* Project ------------ */
-@import "project/**";
+//@import "project/**";
 
-// @import "project/_header";
-// @import "object/project/_footer";
+@import "project/_header";
+@import "project/_main";
+@import "project/_footer";
 // @import "object/project/_nav";
 // @import "object/project/_news";
 // @import "object/project/_panel";
