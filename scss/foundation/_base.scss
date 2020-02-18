@@ -24,7 +24,7 @@ body {
 	line-height: $lh-default;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: $cr-bg;
+	//background: $cr-bg;
 	overflow-x: hidden;
 	overflow-wrap: break-word;
 }
@@ -129,7 +129,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: $ff-code;
+	font-family: $ff-default;
 	font-size: inherit;
 }
 
@@ -228,7 +228,7 @@ textarea {
 
 	&:focus {
 		outline: none;
-		border-color: $cr-form-bd_avtive;
+		//border-color: $cr-form-bd_avtive;
 		box-shadow: none;
 	}
 
@@ -242,7 +242,7 @@ input {
 
 	&:focus {
 		outline: none;
-		border-color: $cr-form-bd_avtive;
+		//border-color: $cr-form-bd_avtive;
 		box-shadow: none;
 	}
 
@@ -284,7 +284,7 @@ input {
 		+ span {
 			display: inline-block;
 			position: relative;
-			padding: 0 0 0 $size-radio-pd_left;
+			//padding: 0 0 0 $size-radio-pd_left;
 			margin: 0 16px 0 0;
 			cursor: pointer;
 
@@ -297,8 +297,8 @@ input {
 				background: #fff;
 				border: 1px solid $cr-form-bd;
 				border-radius: 50%;
-				width: $size-radio;
-				height: $size-radio;
+				//width: $size-radio;
+				//height: $size-radio;
 				display: block;
 			}
 
@@ -314,12 +314,12 @@ input {
 				position: absolute;
 				content: "";
 				top: 50%;
-				left: ($size-radio - $size-radio_active) / 2;
+				//left: ($size-radio - $size-radio_active) / 2;
 				transform: translateY(-50%);
 				background: $cr-check;
 				border-radius: 50%;
-				width: $size-radio_active;
-				height: $size-radio_active;
+				//width: $size-radio_active;
+				//height: $size-radio_active;
 				display: block;
 				opacity: 1;
 			}
@@ -332,7 +332,7 @@ input {
 		+ span {
 			display: inline-block;
 			position: relative;
-			padding: 0 0 0 $size-checkbox-pd_left;
+			//padding: 0 0 0 $size-checkbox-pd_left;
 			margin: 0 16px 0 0;
 			cursor: pointer;
 			transition: all 1s ease 0s;
@@ -344,10 +344,10 @@ input {
 				left: 0;
 				transform: translateY(-50%);
 				background: #fff;
-				border: 1px solid $cr-form-bd;
+				//border: 1px solid $cr-form-bd;
 				border-radius: 2px;
-				width: $size-checkbox;
-				height: $size-checkbox;
+				//width: $size-checkbox;
+				//height: $size-checkbox;
 				display: block;
 			}
 
